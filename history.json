@@ -1,0 +1,15 @@
+{
+  "lists": {
+    "%2Fhome%2Fqibin": [
+      "exten"
+    ],
+    "%2Fhome%2Fqibin%2Fcode": [
+      "exten"
+    ]
+  },
+  "snippets": {
+    "%2Fhome%2Fqibin%2Fcode": [
+      "ma"
+    ]
+  }
+}

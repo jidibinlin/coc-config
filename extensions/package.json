@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "coc-explorer": ">=0.2.6",
+    "coc-highlight": ">=1.2.5",
+    "coc-html": ">=1.2.1",
+    "coc-java": ">=1.4.6",
+    "coc-json": ">=1.2.4",
+    "coc-pairs": ">=1.2.19",
+    "coc-python": ">=1.2.6",
+    "coc-snippets": ">=2.1.14",
+    "coc-tsserver": ">=1.4.9",
+    "cpp-snippets": "https://github.com/jidibinlin/coc-cpp-snippets"
+  }
+}
