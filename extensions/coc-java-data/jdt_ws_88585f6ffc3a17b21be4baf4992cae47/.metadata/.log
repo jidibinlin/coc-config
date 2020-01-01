@@ -1,0 +1,1602 @@
+!SESSION 2019-12-20 22:28:56.981 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/qibin/.config/coc/extensions/coc-java-data/jdt_ws_88585f6ffc3a17b21be4baf4992cae47
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:58.023
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:58.104
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:58.119
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:58.119
+!MESSAGE Initializing Java Language Server 0.49.0.201912122050
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:58.130
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:58.130
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.updateSourceAttachment, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:58.138
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:58.163
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:58.592
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:58.766
+!MESSAGE Workspace initialized in 633ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:58.840
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:58.845
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:58.853
+!MESSAGE >>New configuration: {java={jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, maven={downloadSources=false}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:58.854
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:58.879
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///home/qibin/Documents/qibin/src/main/java/xingjian/App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:59.082
+!MESSAGE Reconciled 0. Took 54 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:59.126
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:59.126
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:59.128
+!MESSAGE Validated 1. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:59.170
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:59.171
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:59.172
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:28:59.173
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:23.359
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:23.643
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:23.847
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:24.023
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:24.102
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:24.139
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:24.508
+!MESSAGE Reconciled 0. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:24.981
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:24.981
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:24.981
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:25.191
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:25.653
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:26.065
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:26.066
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:26.066
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:31.466
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:31.533
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:31.536
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:31.882
+!MESSAGE Reconciled 0. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:32.345
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:32.345
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:32.345
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:33.301
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:33.575
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:33.643
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:33.650
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:34.034
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:34.396
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:34.465
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:34.473
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:34.552
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:34.623
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:34.628
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:35.013
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:35.475
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:35.475
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:35.475
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:36.277
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:36.740
+!MESSAGE Reconciled 0. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:37.198
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:37.198
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:37.198
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:38.279
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:38.739
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:39.213
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:39.213
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:39.214
+!MESSAGE Validated 1. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:39.364
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:39.824
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:39.894
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:39.960
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:40.031
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:40.350
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:40.726
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:40.856
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:40.923
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:40.956
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:41.313
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:41.774
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:41.774
+!MESSAGE 3 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:41.774
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:41.986
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:42.045
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:42.111
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:42.149
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:42.459
+!MESSAGE Reconciled 0. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:42.566
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:42.643
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:42.660
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:42.974
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:43.278
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:43.481
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:43.890
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:43.984
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:44.049
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:44.083
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:44.448
+!MESSAGE Reconciled 0. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:44.912
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:44.912
+!MESSAGE 3 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:44.912
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:45.875
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:46.335
+!MESSAGE Reconciled 0. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:46.795
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:46.795
+!MESSAGE 2 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:46.796
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:47.904
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:47.971
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:47.981
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:48.368
+!MESSAGE Reconciled 0. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:48.784
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:48.784
+!MESSAGE 3 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:48.784
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:49.313
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:49.487
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:49.552
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:49.588
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:49.950
+!MESSAGE Reconciled 0. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:50.112
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:50.225
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:50.288
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:50.295
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:50.635
+!MESSAGE Reconciled 0. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:51.046
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:51.046
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:51.047
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:52.969
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:53.185
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:53.613
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:53.720
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:53.784
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:53.795
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:54.132
+!MESSAGE Reconciled 0. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:54.544
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:54.544
+!MESSAGE 3 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:54.544
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:56.037
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:56.157
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:56.223
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:56.229
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:56.615
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:57.025
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:57.025
+!MESSAGE void is an invalid type for the variable p is of type VariableTypeCannotBeVoid
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:57.025
+!MESSAGE 2 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:57.026
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:59.095
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:59.247
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:59.314
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:59.317
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:29:59.655
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:00.065
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:00.065
+!MESSAGE void is an invalid type for the variable print_n is of type VariableTypeCannotBeVoid
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:00.065
+!MESSAGE 2 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:00.065
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:00.396
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:00.856
+!MESSAGE Reconciled 0. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:01.315
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:01.315
+!MESSAGE 2 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:01.316
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:01.537
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:01.996
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:02.406
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:02.406
+!MESSAGE 2 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:02.407
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:02.514
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:02.721
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:03.010
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:03.468
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:03.927
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:03.927
+!MESSAGE 2 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:03.928
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:04.655
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:05.114
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:05.436
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:05.798
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:06.256
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:06.714
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:06.714
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:06.715
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:07.503
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:07.960
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:08.416
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:08.416
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:08.417
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:12.439
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:12.895
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:13.361
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:13.361
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:13.362
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:15.676
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:15.739
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:15.758
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:16.139
+!MESSAGE Reconciled 0. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:16.216
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:16.280
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:16.287
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:16.621
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:17.030
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:17.030
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:17.031
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:19.121
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:19.482
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:19.890
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:20.115
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:20.179
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:20.203
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:20.572
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:20.861
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:21.268
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:21.727
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:21.727
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:21.727
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:23.464
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:23.530
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:23.604
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:23.923
+!MESSAGE Reconciled 0. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:24.338
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:24.338
+!MESSAGE 2 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:24.338
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:26.189
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:26.598
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:27.007
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:27.008
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:27.008
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:27.145
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:27.208
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:27.260
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:27.550
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:27.921
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:27.981
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:27.989
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:28.328
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:28.787
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:28.787
+!MESSAGE 3 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:28.787
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:29.674
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:29.826
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:29.888
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:29.905
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:30.236
+!MESSAGE Reconciled 0. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:30.717
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:30.718
+!MESSAGE 2 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:30.718
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:30.752
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:31.159
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:31.323
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:31.781
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:32.240
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:32.240
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:32.240
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:32.624
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:32.688
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:32.712
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:33.034
+!MESSAGE Reconciled 0. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:33.493
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:33.493
+!MESSAGE 2 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:33.493
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:34.993
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:35.619
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:35.624
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:36.082
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:36.540
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:36.540
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:36.540
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:38.485
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:38.548
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:38.578
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:38.942
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:39.406
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:39.406
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:39.407
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:41.570
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:42.027
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:42.486
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:42.486
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:42.486
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:42.762
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:42.825
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:42.844
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:43.221
+!MESSAGE Reconciled 0. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:43.635
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:43.635
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:43.635
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:45.445
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:45.766
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:45.831
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:45.844
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:46.176
+!MESSAGE Reconciled 0. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:46.607
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:46.608
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:46.608
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:47.368
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:47.821
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:47.839
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:48.298
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:48.757
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:48.757
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:48.757
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:49.137
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:49.534
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:49.544
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:49.611
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:49.617
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:49.916
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:50.375
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:50.501
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:50.764
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:50.827
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:50.844
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:51.173
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:51.496
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:51.590
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:51.654
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:51.994
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:52.092
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:52.422
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:52.423
+!MESSAGE 2 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:52.424
+!MESSAGE Validated 1. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:53.155
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:53.170
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:53.580
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:53.993
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:53.993
+!MESSAGE void[] is an invalid type is of type CannotAllocateVoidArray
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:53.993
+!MESSAGE Illegal modifier for parameter testName; only final is permitted is of type IllegalModifierForArgument
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:53.993
+!MESSAGE 7 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:53.994
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:56.284
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:56.692
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:57.102
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:57.102
+!MESSAGE 2 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:30:57.103
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:00.224
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:00.444
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:00.509
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:00.639
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:00.853
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:01.263
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:01.264
+!MESSAGE 2 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:01.264
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:02.025
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:02.097
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:02.120
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:02.433
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:02.895
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:02.895
+!MESSAGE 2 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:02.895
+!MESSAGE Validated 1. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:03.251
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:03.659
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:04.069
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:04.069
+!MESSAGE 2 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:04.069
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:04.849
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:05.307
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:05.727
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:05.727
+!MESSAGE 2 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:05.727
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:06.027
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:06.092
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:06.138
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:06.431
+!MESSAGE Reconciled 0. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:06.889
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:06.890
+!MESSAGE 2 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:06.890
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:07.320
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:07.822
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:07.832
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:08.289
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:08.748
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:08.748
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:08.748
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:09.213
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:09.670
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:10.128
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:10.128
+!MESSAGE The value of the local variable a is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:10.128
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:10.129
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:11.887
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:12.295
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:12.702
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:12.702
+!MESSAGE The value of the local variable a is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:12.702
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:12.702
+!MESSAGE Validated 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:16.523
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:16.931
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:17.389
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:17.389
+!MESSAGE The value of the local variable a is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:17.389
+!MESSAGE 1 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:17.389
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:17.501
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:17.565
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:17.602
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:17.606
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:17.655
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:17.658
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:18.062
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:18.521
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:18.521
+!MESSAGE 2 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:18.521
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:19.954
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:20.576
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:21.035
+!MESSAGE Reconciled 0. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:21.495
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:21.495
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:21.496
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:23.221
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:23.284
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:23.288
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:23.678
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:24.137
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:24.137
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:24.137
+!MESSAGE Validated 1. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:25.155
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:25.158
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:35.289
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:35.294
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:37.079
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:31:37.080
+!MESSAGE Clearing problems for /App.java
+!SESSION 2019-12-20 22:34:07.067 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/qibin/.config/coc/extensions/coc-java-data/jdt_ws_88585f6ffc3a17b21be4baf4992cae47
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-12-20 22:34:07.442
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:08.110
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:08.182
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:08.201
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:08.201
+!MESSAGE Initializing Java Language Server 0.49.0.201912122050
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:08.211
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:08.212
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.updateSourceAttachment, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:08.221
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:08.437
+!MESSAGE Workspace initialized in 223ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:08.523
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:08.539
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:08.574
+!MESSAGE >>New configuration: {java={jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, maven={downloadSources=false}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:08.576
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:08.633
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:08.636
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:08.637
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:08.639
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:08.644
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///home/qibin/Documents/qibin/src/main/java/xingjian/App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:09.141
+!MESSAGE Reconciled 0. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:09.556
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:09.556
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:09.558
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:50.845
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:51.307
+!MESSAGE Reconciled 0. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:51.432
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:51.501
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:51.654
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:51.874
+!MESSAGE Reconciled 0. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:52.295
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:52.296
+!MESSAGE Duplicate local variable a is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:52.296
+!MESSAGE 2 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:52.296
+!MESSAGE Validated 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:53.706
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:53.762
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:53.829
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:53.873
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:54.176
+!MESSAGE Reconciled 0. Took 11 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:54.642
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:54.642
+!MESSAGE Duplicate local variable a is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:54.642
+!MESSAGE 2 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:54.643
+!MESSAGE Validated 1. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:34:55.618
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:35:02.427
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:35:02.887
+!MESSAGE Reconciled 0. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:35:03.301
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:35:03.301
+!MESSAGE Duplicate local variable a is of type RedefinedLocal
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:35:03.302
+!MESSAGE 2 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:35:03.302
+!MESSAGE Validated 1. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:35:03.550
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:35:03.961
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:35:04.371
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:35:04.371
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:35:04.371
+!MESSAGE Validated 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:35:04.618
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:35:04.621
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:35:10.107
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:35:10.113
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:35:22.505
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:35:22.506
+!MESSAGE Clearing problems for /App.java
+!SESSION 2019-12-20 22:36:11.031 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/qibin/.config/coc/extensions/coc-java-data/jdt_ws_88585f6ffc3a17b21be4baf4992cae47
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-12-20 22:36:11.430
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:12.176
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:12.255
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:12.272
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:12.272
+!MESSAGE Initializing Java Language Server 0.49.0.201912122050
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:12.282
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:12.282
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.updateSourceAttachment, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:12.291
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:12.550
+!MESSAGE Workspace initialized in 265ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:12.592
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:12.597
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:12.606
+!MESSAGE >>New configuration: {java={jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, maven={downloadSources=false}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:12.607
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:12.634
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///home/qibin/Documents/qibin/src/main/java/xingjian/App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:12.638
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:12.641
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:12.642
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:12.643
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:13.124
+!MESSAGE Reconciled 0. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:13.565
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:13.566
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:13.570
+!MESSAGE Validated 1. Took 44 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:29.328
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:36:29.330
+!MESSAGE Clearing problems for /App.java
+!SESSION 2019-12-20 22:37:05.341 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/qibin/.config/coc/extensions/coc-java-data/jdt_ws_88585f6ffc3a17b21be4baf4992cae47
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-12-20 22:37:05.745
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:06.473
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:06.541
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:06.556
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:06.556
+!MESSAGE Initializing Java Language Server 0.49.0.201912122050
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:06.565
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:06.565
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.updateSourceAttachment, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:06.574
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:06.792
+!MESSAGE Workspace initialized in 225ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:06.875
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:06.879
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:06.890
+!MESSAGE >>New configuration: {java={jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, maven={downloadSources=false}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:06.892
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:06.920
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:06.922
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:06.924
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///home/qibin/Documents/qibin/src/main/java/xingjian/App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:06.924
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:06.925
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:07.424
+!MESSAGE Reconciled 0. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:07.862
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:07.862
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:07.865
+!MESSAGE Validated 1. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:42.915
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:37:42.916
+!MESSAGE Clearing problems for /App.java

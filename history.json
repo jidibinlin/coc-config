@@ -5,7 +5,12 @@
     ],
     "%2Fhome%2Fqibin%2Fcode": [
       "exten"
-    ]
+    ],
+    "%2Fhome%2Fqibin%2F": {
+      "config%2Fnvim": [
+        "exten"
+      ]
+    }
   },
   "snippets": {
     "%2Fhome%2Fqibin%2Fcode": [

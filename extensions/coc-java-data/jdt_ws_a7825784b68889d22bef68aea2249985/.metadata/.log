@@ -1,0 +1,36 @@
+!SESSION 2019-12-18 15:48:45.210 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/qibin/.config/coc/extensions/coc-java-data/jdt_ws_a7825784b68889d22bef68aea2249985
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-18 15:48:46.303
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-18 15:48:46.380
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-18 15:48:46.395
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-18 15:48:46.396
+!MESSAGE Initializing Java Language Server 0.49.0.201912122050
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-18 15:48:46.405
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-18 15:48:46.405
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.updateSourceAttachment, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-18 15:48:46.414
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-18 15:48:46.435
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-18 15:48:46.913
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-18 15:48:47.154
+!MESSAGE Importing Maven project(s)

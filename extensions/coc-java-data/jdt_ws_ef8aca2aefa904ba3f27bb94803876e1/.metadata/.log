@@ -1,0 +1,84 @@
+!SESSION 2019-12-20 22:45:46.682 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/qibin/.config/coc/extensions/coc-java-data/jdt_ws_ef8aca2aefa904ba3f27bb94803876e1
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:47.733
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:47.820
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:47.837
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:47.838
+!MESSAGE Initializing Java Language Server 0.49.0.201912122050
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:47.849
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:47.849
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.updateSourceAttachment, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:47.859
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:47.875
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:48.248
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:48.425
+!MESSAGE Workspace initialized in 573ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:48.463
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:48.467
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:48.473
+!MESSAGE >>New configuration: {java={jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, maven={downloadSources=false}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:48.474
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:48.484
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///home/qibin/Documents/newtest/src/main/java/com/xingjian/newtest/App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:48.709
+!MESSAGE Reconciled 0. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:48.764
+!MESSAGE begin problem for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:48.764
+!MESSAGE 0 problems reported for /App.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:48.766
+!MESSAGE Validated 1. Took 55 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:48.782
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:48.783
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:48.784
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:48.785
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:45:58.757
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:47:18.005
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-12-20 22:47:18.006
+!MESSAGE Clearing problems for /App.java
