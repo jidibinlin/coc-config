@@ -1,0 +1,416 @@
+!SESSION 2020-03-26 22:55:55.372 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_241
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/qibin/.config/coc/extensions/coc-java-data/jdt_ws_0c4723a04e9b2ffd867f531f3c7b1d64
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:55:58.876
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:55:59.189
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:55:59.251
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:55:59.253
+!MESSAGE Initializing Java Language Server 0.49.0.201912122050
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:55:59.290
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:55:59.290
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.updateSourceAttachment, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:55:59.317
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:55:59.385
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:00.446
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:00.811
+!MESSAGE Try to create an invisible project for the workspace /home/qibin/.leetcode
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:00.811
+!MESSAGE Creating the Java project .leetcode_2640af62
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:00.822
+!MESSAGE Finished creating the Java project .leetcode_2640af62
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:00.840
+!MESSAGE Successfully created a workspace invisible project .leetcode_2640af62
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:00.844
+!MESSAGE Workspace initialized in 1545ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:00.921
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:00.932
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:00.948
+!MESSAGE >>New configuration: {java={jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, maven={downloadSources=false}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:00.951
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:01.387
+!MESSAGE Reconciled 0. Took 103 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:01.529
+!MESSAGE begin problem for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:01.529
+!MESSAGE 0 problems reported for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:01.537
+!MESSAGE Validated 1. Took 140 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:01.571
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-03-26 22:56:01.581
+!MESSAGE Failed to publish diagnostics for file:///home/qibin/.leetcode/5.最长回文子串.java
+!STACK 1
+Java Model Exception: Java Model Status ['5.最长回文子串' is not a valid Java identifier]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:298)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:264)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:208)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$1.run(JDTLanguageServer.java:268)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2020-03-26 22:56:01.585
+!MESSAGE '5.最长回文子串' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-03-26 22:56:01.590
+!MESSAGE Failed to publish diagnostics for file:///home/qibin/.leetcode/6.z-字形变换.java
+!STACK 1
+Java Model Exception: Java Model Status ['6.z-字形变换' is not a valid Java identifier]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:298)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:264)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:208)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$1.run(JDTLanguageServer.java:268)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2020-03-26 22:56:01.590
+!MESSAGE '6.z-字形变换' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-03-26 22:56:01.591
+!MESSAGE Failed to publish diagnostics for file:///home/qibin/.leetcode/7.整数反转.java
+!STACK 1
+Java Model Exception: Java Model Status ['7.整数反转' is not a valid Java identifier]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:298)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:264)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:208)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$1.run(JDTLanguageServer.java:268)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2020-03-26 22:56:01.591
+!MESSAGE '7.整数反转' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2020-03-26 22:56:01.593
+!MESSAGE Failed to publish diagnostics for file:///home/qibin/.leetcode/4.寻找两个有序数组的中位数.java
+!STACK 1
+Java Model Exception: Java Model Status ['4.寻找两个有序数组的中位数' is not a valid Java identifier]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:256)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:596)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:298)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:264)
+	at org.eclipse.jdt.ls.core.internal.handlers.WorkspaceDiagnosticsHandler.publishDiagnostics(WorkspaceDiagnosticsHandler.java:208)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer$1.run(JDTLanguageServer.java:268)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2020-03-26 22:56:01.593
+!MESSAGE '4.寻找两个有序数组的中位数' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:01.593
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:01.597
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:01.599
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:10.636
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:10.923
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:11.001
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:11.100
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:11.363
+!MESSAGE Reconciled 0. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:11.818
+!MESSAGE begin problem for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:11.818
+!MESSAGE 1 problems reported for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:11.828
+!MESSAGE Validated 1. Took 64 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:12.979
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:13.057
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:13.152
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:13.411
+!MESSAGE Reconciled 0. Took 29 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:13.561
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:13.622
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:13.671
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:13.978
+!MESSAGE Reconciled 0. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:14.421
+!MESSAGE begin problem for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:14.421
+!MESSAGE 1 problems reported for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:14.421
+!MESSAGE Validated 1. Took 41 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:14.838
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:14.988
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:15.053
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:15.083
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:15.415
+!MESSAGE Reconciled 0. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:15.606
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:15.669
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:15.720
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:16.032
+!MESSAGE Reconciled 0. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:16.477
+!MESSAGE begin problem for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:16.477
+!MESSAGE 1 problems reported for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:16.477
+!MESSAGE Validated 1. Took 43 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:17.230
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:17.275
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:17.988
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:18.259
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:18.326
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:18.377
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:18.683
+!MESSAGE Reconciled 0. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:19.101
+!MESSAGE begin problem for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:19.101
+!MESSAGE 2 problems reported for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:19.101
+!MESSAGE Validated 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:19.147
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:19.210
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:19.232
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:19.558
+!MESSAGE Reconciled 0. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:19.994
+!MESSAGE begin problem for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:19.995
+!MESSAGE 1 problems reported for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:19.995
+!MESSAGE Validated 1. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:20.076
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:20.138
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:20.186
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:20.484
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:20.897
+!MESSAGE begin problem for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:20.897
+!MESSAGE 1 problems reported for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:20.897
+!MESSAGE Validated 1. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:21.500
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:21.562
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:21.570
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:21.632
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:21.635
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:21.912
+!MESSAGE Reconciled 0. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:22.328
+!MESSAGE begin problem for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:22.328
+!MESSAGE 1 problems reported for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:22.332
+!MESSAGE Validated 1. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:22.361
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:22.382
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:22.383
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:22.442
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:22.483
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:22.894
+!MESSAGE Reconciled 0. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:23.320
+!MESSAGE begin problem for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:23.320
+!MESSAGE 1 problems reported for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:23.320
+!MESSAGE Validated 1. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:24.000
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:24.461
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:24.559
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:24.966
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:25.381
+!MESSAGE begin problem for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:25.381
+!MESSAGE 1 problems reported for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:25.381
+!MESSAGE Validated 1. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:25.806
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:26.262
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:26.673
+!MESSAGE begin problem for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:26.673
+!MESSAGE 0 problems reported for /3.无重复字符的最长子串.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:26.673
+!MESSAGE Validated 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:27.079
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:27.095
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-03-26 22:56:38.335
+!MESSAGE >> document/didClose

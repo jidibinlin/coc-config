@@ -1,0 +1,19 @@
+INDEX VERSION 1.131+/home/qibin/.config/coc/extensions/coc-java-data/jdt_ws_cf18c17fe3f5809b18eb6fdb5c1788fb/.metadata/.plugins/org.eclipse.jdt.core
+4150614763.index
+305906273.index
+1142510305.index
+300057554.index
+1637580092.index
+3495998264.index
+3015047674.index
+1003492433.index
+1817421344.index
+2089348824.index
+2671449466.index
+689235719.index
+1945860685.index
+3211246937.index
+3548655187.index
+69148627.index
+2141148996.index
+3842426239.index

@@ -1,15 +1,15 @@
 {
   "dependencies": {
-    "coc-explorer": ">=0.2.10",
+    "coc-explorer": ">=0.3.14",
     "coc-highlight": ">=1.2.5",
-    "coc-html": ">=1.2.1",
-    "coc-java": ">=1.4.6",
-    "coc-json": ">=1.2.4",
-    "coc-pairs": ">=1.2.20",
-    "coc-python": ">=1.2.6",
-    "coc-snippets": ">=2.1.16",
-    "coc-tsserver": ">=1.4.9",
-    "coc-xml": ">=1.9.5",
+    "coc-html": ">=1.2.4",
+    "coc-java": ">=1.4.8",
+    "coc-json": ">=1.2.5",
+    "coc-pairs": ">=1.2.21",
+    "coc-python": ">=1.2.9",
+    "coc-snippets": ">=2.1.23",
+    "coc-tsserver": ">=1.4.12",
+    "coc-xml": ">=1.11.0",
     "cpp-snippets": "https://github.com/jidibinlin/coc-cpp-snippets"
   }
 }

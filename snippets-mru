@@ -1,3 +1,5 @@
+imp
+pprint
 cout
 cin
 name
@@ -13,7 +15,6 @@ new
 public_method
 test
 funct
-imp
 if_
 main
 map

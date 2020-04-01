@@ -1,7 +1,11 @@
 {
   "lists": {
     "%2Fhome%2Fqibin": [
-      "exten"
+      "exten",
+      "exte",
+      "EXTEN",
+      "extemsion",
+      "extems"
     ],
     "%2Fhome%2Fqibin%2Fcode": [
       "exten"
@@ -15,6 +19,11 @@
   "snippets": {
     "%2Fhome%2Fqibin%2Fcode": [
       "ma"
+    ]
+  },
+  "extensions": {
+    "%2Fhome%2Fqibin": [
+      "q"
     ]
   }
 }
